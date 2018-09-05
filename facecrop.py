@@ -1,3 +1,4 @@
+"""Detect faces in a live camera stream and show the faces cropped and resized in a separate window."""
 import numpy as np
 import cv2
 
