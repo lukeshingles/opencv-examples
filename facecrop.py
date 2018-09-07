@@ -24,11 +24,11 @@ while True:
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
     if stackedfaces is not None:
-        cv2.imshow("Faces", stackedfaces)
-        cv2.moveWindow("Faces", 0, 0)
+        cv2.imshow('Faces', stackedfaces)
+        cv2.moveWindow('Faces', 0, 0)
 
     cv2.imshow('Camera', img)
-    cv2.moveWindow("Camera", 256, 0)
+    cv2.moveWindow('Camera', 256, 0)
 
     key = cv2.waitKey(30) & 0xff
 
